@@ -1,0 +1,18 @@
+table,th,td{
+	border:1px solid black;
+}
+.heading{
+	text-align:center;
+	color:black;
+	background-color: orange;
+}
+.r1{
+	text-align:center;
+	color:orange;
+	background-color: green;
+	}
+.r2{
+	text-align:center;
+	color:green;
+	background-color: cyan;
+}

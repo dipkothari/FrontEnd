@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function dispmsg(){
+		num1 = parseInt(prompt("Enter the first Number","0"));
+		num2 = parseInt(prompt("Enter the second Number"));
+		
+		alert("Sum is \n"+(num1+num2));
+	}
+	
+	function closeWin(){
+		res=confirm("do you want to close the window?");
+		if(res==true) window.close();
+	}
+</script>
+</head>
+<body>
+	<form name="f1">
+	
+		<input type="button" value="add" name="but1" onClick="dispmsg()">
+		<input type="button" value="close" name="but2" onClick="closeWin()">
+	</form>
+
+</body>
+</html>

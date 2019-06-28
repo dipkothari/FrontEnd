@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+	function exam(num1,num2,num3){
+		var total =num1+num2+num3;
+		if(total>=65){
+			if(num1>=25&&num2>=15&&num3>=10){
+				document.write("Your Generic Comprehensive is  "+total+" with individual score is "+num1+" which >=25 "+num2+" which >=15 "+num3+" which >=10<br>")
+			}else{
+				document.write("total is more but individual is less<br><br> ");
+			}
+		}
+		else{
+			document.write("Sorry");
+		}
+	}
+	exam(40,20,7);
+	exam(40,20,10);
+	
+</script>
+</body>
+</html>
