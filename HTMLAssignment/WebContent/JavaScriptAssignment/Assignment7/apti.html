@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function check(){
+		/* for(i=0;i<document.fm1.rad.length;i++){
+			if(document.fm1.rad[i].checked==true){
+				val=document.fm1.rad[i].value;
+			}
+		}  */
+		
+		
+		if(document.fm1.rad.value=="pizza"){
+			alert("true");
+		}else{
+			alert("false");
+			}
+	}
+</script>
+</head>
+<body>
+<h5>What is my favourite food?</h5>
+<form name="fm1">
+pizza <input type="radio" value="pizza" name="rad"><br>
+rotii <input type="radio" value="roti" name="rad"><br>
+cake <input type="radio" value="cake" name="rad"><br>
+chocolate <input type="radio" value="chocolate" name="rad"><br>
+<button onClick="check()" >check</button>
+
+</form>
+</body>
+</html>

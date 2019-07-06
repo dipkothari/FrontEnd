@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function add(){
+	var	val1=parseInt(document.fm1.num1.value);
+	var	val2=parseInt(document.fm1.num2.value);
+	var deep = val1+val2;
+		document.fm1.result.value=deep;
+		
+		
+	}
+</script>
+</head>
+<body>
+	<form name="fm1" onsubmit="return false">
+	Num1: <input type="number"  name="num1" size="20" ><br><br>
+	Num2: <input type="number"  name="num2" size="20"><br><br>
+	<button  onclick="add()">Add</button><br><br>
+	<button  type="reset">reset</button>
+	Result: <input type="number"  name="result" size="20"><br>
+	
+	</form>
+</body>
+</html>

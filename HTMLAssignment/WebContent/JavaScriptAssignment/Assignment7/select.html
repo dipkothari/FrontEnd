@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function disp(){
+		ind = document.f1.webs.selectedIndex;
+	
+	 switch(true){
+		case (document.f1.webs.options[ind].value==1): 
+		location.href="https://www.google.com/";
+			break;
+		case (document.f1.webs.options[ind].value==2): 
+		location.href="https://www.google.com/images/";
+			break;
+		case (document.f1.webs.options[ind].value==3): 
+		location.href="https://www.google.com/maps/";
+			break;
+		case (document.f1.webs.options[ind].value==4): 
+		location.href="https://www.google.com/news/";
+			break;
+		} 
+	
+	}
+</script>
+</head>
+<body>
+	<form name="f1">
+		<select name="webs" onchange="disp()">
+			<option value="1">http://www.google.com</option>
+			<option value="2">http://www.google.com/images</option>
+			<option value="3">http://www.google.com/map</option>
+			<option value="4">http://www.google.com/news</option>
+		</select>
+	</form>
+</body>
+</html>

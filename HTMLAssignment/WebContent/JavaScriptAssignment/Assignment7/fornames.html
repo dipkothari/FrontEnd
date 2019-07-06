@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function funDisp(){
+		alert("textbox val is"+document.frm1.txt1.value);
+		alert("textbox val is"+document.frm1.but1.value);
+		alert("textbox val is"+document.frm1.rad1.value);
+
+	}
+</script>
+</head>
+<body>
+<form name="frm1">
+	<input type="text" name="txt1" value="Imcs"><br>
+				<input type="button" name="rad1" value="1" checked><br>
+				<input type="radio" name="but1" value="Submit" onClick="funDisp()"><br>
+		
+	</form>
+</body>
+</html>

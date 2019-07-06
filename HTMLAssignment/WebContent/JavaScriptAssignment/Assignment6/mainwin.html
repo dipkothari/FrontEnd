@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function openNew(){
+		newin = window.open("newwin.html","newone","width=300; height=400; toolbar=no");
+	}
+	function newinclose(){
+		newin.close();
+	}
+	</script>
+</head>
+<body>
+<font color="red" size="5">Main Window</font>
+<button onClick="openNew()">Open</button>
+<button onClick="newinclose()">close</button>
+
+</body>
+</html>
